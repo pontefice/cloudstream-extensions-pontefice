@@ -59,7 +59,7 @@ open class Pontefice : MainAPI() {
             "$tmdbAPI/trending/movie/day?api_key=$apiKey&region=IT&language=it-IT" to "Film in Tentenza",
             "$tmdbAPI/trending/tv/day?api_key=$apiKey&region=IT&language=it-IT" to "Serie TV in Tentenza",
             "$tmdbAPI/movie/popular?api_key=$apiKey&region=IT&language=it-IT" to "Film Popolari",
-            "$tmdbAPI/movie/tv?api_key=$apiKey&region=IT&language=it-IT" to "Serie TV Popolari",
+            "$tmdbAPI/tv/popular?api_key=$apiKey&region=IT&language=it-IT" to "Serie TV Popolari",
             "$tmdbAPI/discover/tv?api_key=$apiKey&region=IT&language=it-IT&with_networks=213" to "Netflix",
             "$tmdbAPI/discover/tv?api_key=$apiKey&region=IT&language=it-IT&with_networks=1024" to "Amazon",
             "$tmdbAPI/discover/tv?api_key=$apiKey&region=IT&language=it-IT&with_networks=2739" to "Disney+",
