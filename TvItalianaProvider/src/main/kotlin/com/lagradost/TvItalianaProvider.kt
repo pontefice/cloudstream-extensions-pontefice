@@ -93,13 +93,14 @@ class TvItalianaProvider : MainAPI() {
                     lang = "ita"
                 )
             }
-        res.add(
+        if(discoveryinfo!=null) {
+            res.add(
             HomePageList(
                 "Discovery",
-                discoveryinfo!!,
+                discoveryinfo,
                 isHorizontalImages = true
             )
-        )
+        )}
 
         return HomePageResponse(res)
 
