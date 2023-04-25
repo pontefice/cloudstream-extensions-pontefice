@@ -21,5 +21,5 @@ cloudstream {
         "Movie",
     )
 
-    iconUrl = "https://raw.githubusercontent.com/pontefice/cloudstream-extensions-pontefice/master/pontefice.jpg"
+    iconUrl = "https://raw.githubusercontent.com/pontefice/cs-extensions-pontefice/master/pontefice.jpg"
 }
