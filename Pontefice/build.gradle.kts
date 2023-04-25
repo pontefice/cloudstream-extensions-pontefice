@@ -21,5 +21,5 @@ cloudstream {
         "Movie",
     )
 
-    iconUrl = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/05/17/09/the-young-pope.jpg?quality=75&width=990&crop=1214%3A809%2Csmart&auto=webp"
+    iconUrl = "https://raw.githubusercontent.com/pontefice/cloudstream-extensions-pontefice/master/pontefice.jpg"
 }
