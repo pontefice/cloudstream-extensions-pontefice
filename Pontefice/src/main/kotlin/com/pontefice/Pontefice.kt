@@ -108,7 +108,7 @@ open class Pontefice : MainAPI() {
 
     override suspend fun search(query: String): List<SearchResponse>? {
         return app.get(
-                "$tmdbAPI/search/multi?api_key=$apiKey&language=it-IT&query=$query&page=1&include_adult=${settingsForProvider.enableAdult}"
+                "$tmdbAPI/search/multi?api_key=$apiKey&region=IT&language=it-IT&query=$query&page=1&include_adult=${settingsForProvider.enableAdult}"
         ).parsedSafe<Results>()?.results?.mapNotNull { media ->
             media.toSearchResponse()
         }
