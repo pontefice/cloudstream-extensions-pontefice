@@ -13,7 +13,7 @@ import java.security.MessageDigest
 
 
 object StreamingCommunity {
-    const val URL = "https://streamingcommunity.capital"
+    const val URL = "https://streamingcommunity.download/"
     private const val APIURL = "${URL}/api"
 
     private var internal_cookies = mapOf<String, String>()
